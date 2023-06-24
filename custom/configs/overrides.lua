@@ -33,6 +33,7 @@ M.mason = {
     "black",
     "mypy",
     "isort",
+    "debugpy",
 
     -- terraform stuff
     "terraform-ls",
