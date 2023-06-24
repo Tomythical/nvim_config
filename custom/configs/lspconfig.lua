@@ -13,5 +13,7 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+-- require("lsp-format").setup {}
+-- require("lspconfig").gopls.setup { on_attach = require("lsp-format").on_attach }
 --
 -- lspconfig.pyright.setup { blabla}
