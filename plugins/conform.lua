@@ -5,9 +5,7 @@ return {
     opts = {
       formatters_by_ft = {
         ["python"] = { "isort", "black" },
-        terraform = { "terraform_fmt" },
-        tf = { "terraform_fmt" },
-        ["terraform-vars"] = { "terraform_fmt" },
+        ["terraform"] = { "terraform_fmt" },
       },
     },
   },
