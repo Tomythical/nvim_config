@@ -22,8 +22,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.dap.core" },
     --Editor
     { import = "lazyvim.plugins.extras.editor.navic" },
-    --LSP
-    { import = "lazyvim.plugins.extras.lsp.none-ls" },
+    { import = "lazyvim.plugins.extras.editor.harpoon2" },
+    { import = "lazyvim.plugins.extras.editor.outline" },
     --UI
     { import = "lazyvim.plugins.extras.ui.mini-animate" },
     --Utils

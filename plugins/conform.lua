@@ -7,6 +7,11 @@ return {
         ["python"] = { "isort", "black" },
         ["terraform"] = { "terraform_fmt" },
       },
+      formatters = {
+        black = {
+          prepend_args = { "-S", "--fast" },
+        },
+      },
     },
   },
 }
